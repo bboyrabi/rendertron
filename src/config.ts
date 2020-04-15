@@ -33,6 +33,8 @@ export type Config = {
     width: number;
     height: number;
     headers: { [key: string]: string };
+    abortRequestUri: Array<string>;
+    waitForNavigationUntil: 'networkidle0' | 'networkidle2';
 };
 
 export class ConfigManager {
@@ -43,7 +45,9 @@ export class ConfigManager {
         host: '0.0.0.0',
         width: 1000,
         height: 1000,
-        headers: {}
+        headers: {},
+        abortRequestUri: [],
+        waitForNavigationUntil: 'networkidle0'
     };
 
     static async getConfiguration(): Promise<Config> {

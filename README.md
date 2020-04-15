@@ -171,6 +171,8 @@ root. Available configuration options:
  * `width` default `1000` - set the width (resolution) to be used for rendering the page.
  * `height` default `1000` - set the height (resolution) to be used for rendering the page.
  * `cache` default `null` - set to `datastore` to enable caching on Google Cloud using datastore or to `memory` to enable in-memory caching
+ * `abortRequestUri` default `[]` - set the URI to stop the request in an array.
+ * `waitForNavigationUntil` default `networkidle0` - set the type to determine the completion of page loading. `networkidle0` to terminate when the number of connections is 0 for 500 milliseconds, and `networkidle2` to terminate when the number of connections is 2 or less for 500 milliseconds. 
 
 ### Troubleshooting
 If you're having troubles with getting Headless Chrome to run in your
