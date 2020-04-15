@@ -14,7 +14,11 @@
     "https://i1.ytimg.com/",
     "esm-bundled/undefined",
     "https://storage.googleapis.com/",
-    "data:image"
+    "data:image",
+    "https://www.googletagmanager.com/",
+    "https://www.google-analytics.com/",
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/"
   ],
   "waitForNavigationUntil": "networkidle0"
 }
