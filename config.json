@@ -1,6 +1,6 @@
 {
   "cache": null,
-  "timeout": 40000,
+  "timeout": 0,
   "port": 3000,
   "host": "0.0.0.0",
   "width": 1000,
@@ -9,7 +9,10 @@
   "abortRequestUri": [
     "https://connect.facebook.net/",
     "https://js.stripe.com/",
-    "twitter.com/"
+    "https://www.youtube.com/",
+    "https://platform.twitter.com/",
+    "https://i1.ytimg.com/",
+    "esm-bundled/undefined"
   ],
   "waitForNavigationUntil": "networkidle0"
 }
