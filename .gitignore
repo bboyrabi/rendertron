@@ -4,4 +4,4 @@ build/
 test.jpeg
 *.tgz
 .idea
-DEPLOY.md
+./DEPLOY.md
