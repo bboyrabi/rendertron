@@ -75,12 +75,14 @@ export class Renderer {
             let isAbort = false;
             for (const uri of this.config.abortRequestUri) {
                 if (interceptedRequest.url().includes(uri)) {
+                    console.log('abort', interceptedRequest.url());
                     interceptedRequest.abort();
                     isAbort = true;
                     break;
                 }
             }
             if (!isAbort) {
+                console.log('continue', interceptedRequest.url());
                 interceptedRequest.continue();
             }
         });
