@@ -12,7 +12,9 @@
     "https://www.youtube.com/",
     "https://platform.twitter.com/",
     "https://i1.ytimg.com/",
-    "esm-bundled/undefined"
+    "esm-bundled/undefined",
+    "https://storage.googleapis.com/",
+    "data:image"
   ],
   "waitForNavigationUntil": "networkidle0"
 }
