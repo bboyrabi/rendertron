@@ -165,7 +165,7 @@ on how to deploy run headless Chrome in Docker.
 ### Config
 When deploying the service, set configuration variables by including a `config.json` in the
 root. Available configuration options:
- * `timeout` default `10000` - set the timeout used to render the target page. 
+ * `timeout` default `10000` - set the timeout used to render the target page. Heroku server request timeout is 30000ms.
  * `port` default `3000` - set the port to use for running and listening the rendertron service. Note if process.env.PORT is set, it will be used instead.
  * `host` default `0.0.0.0` - set the hostname to use for running and listening the rendertron service. Note if process.env.HOST is set, it will be used instead.
  * `width` default `1000` - set the width (resolution) to be used for rendering the page.
